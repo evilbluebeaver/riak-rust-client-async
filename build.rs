@@ -6,7 +6,6 @@ fn main() {
                 "proto/riak_kv.proto",
                 "proto/riak_dt.proto",
                 "proto/riak_search.proto",
-                "proto/riak_ts.proto",
                 "proto/riak_yokozuna.proto",
             ],
             &["proto/"],
