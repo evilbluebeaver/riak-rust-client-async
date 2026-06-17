@@ -1,4 +1,4 @@
-# riak-rust-client
+# riak-async
 
 [![docs.rs](https://img.shields.io/docsrs/riak-async)](https://docs.rs/riak-async)
 [![Crates.io Version](https://img.shields.io/crates/v/riak-async)](https://crates.io/crates/riak-async)
