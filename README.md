@@ -1,7 +1,7 @@
 # riak-rust-client
 
-![docs.rs](https://img.shields.io/docsrs/riak-async)
-![Crates.io Version](https://img.shields.io/crates/v/riak-async)
+[![docs.rs](https://img.shields.io/docsrs/riak-async)](https://docs.rs/riak-async)
+[![Crates.io Version](https://img.shields.io/crates/v/riak-async)](https://crates.io/crates/riak-async)
 [![License](https://img.shields.io/badge/license-mit-blue.svg)](LICENSE)
 
 
