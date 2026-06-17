@@ -1,0 +1,24 @@
+[package]
+name = "riak-async"
+edition = "2024"
+description = "A Riak client for Rust."
+homepage = "https://github.com/evilbluebeaver/riak-rust-client-async"
+repository = "https://github.com/evilbluebeaver/riak-rust-client-async"
+keywords = ["riak", "riak-kv", "riak-ts", "nosql", "client", "async", "tokio"]
+license = "MIT"
+version = "0.1.0"
+authors = ["Kirill Kindiuk <evilbluebeaver@gmail.com>"]
+
+[dependencies]
+prost = "0.13"
+tracing = "0.1"
+tokio = { version = "1.52", features = ["net", "io-util"] }
+thiserror = "2.0"
+deadpool = "0.12"
+
+[build-dependencies]
+prost-build = "0.13"
+
+[dev-dependencies]
+tokio = { version = "1.52", features = ["rt", "macros"] }
+
