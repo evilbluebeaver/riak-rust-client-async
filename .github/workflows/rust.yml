@@ -1,5 +1,6 @@
 name: Rust
 
+
 on:
   push:
     tags:
@@ -16,6 +17,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - uses: arduino/setup-protoc@v3
     - uses: ryohidaka/action-cargo-publish@v0.1.0
       with:
         token: ${{ secrets.CRATES_IO_TOKEN }}
